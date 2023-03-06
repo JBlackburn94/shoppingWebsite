@@ -11,118 +11,66 @@
     background-color: black;
     height: 1.5rem;
     width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-}
 
-.top-element h5 {
-    font-weight: 200;
-    font-size: 1rem;
-    padding-top: 5px;
-}
-
-.logo {
-    text-align: center;
-    font-family: 'Gajraj One', sans-serif;
-    margin-top: 1rem;
-    margin-bottom: -2rem;
 }
 
 .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-    height: 4rem;
-    width: 100%;
+    background-color: #C1D7AE;
+    padding: 10px;
 }
 
 .nav-container a {
     color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
 }
 
-.nav-container a:hover {
-    color: rgb(127, 212, 0);
-    transition: 0.5s;
-    text-decoration: underline;
-} 
-
-.carousel-item {
-    height: auto;
+.nav-link:hover {
+    color: #968E85;
 }
 
-.clothing-card {
-    height: 20rem;
-    margin-top: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.navbar-brand {
+    background-color: #8CC084;
+    padding-inline: 1rem;
+    border-radius: 10px;
 }
 
-.clothing-image {
-    max-height: 60%;
-    max-width: 100%
-}
-
-.size-container {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 4px;
-    margin-top: -8px;
-}
-
-.size-item {
-    border: 1px solid black;
-    border-radius: 4px;
-    width: 25px;
-    text-align: center;
-    margin-inline: 4px;
-
-}
-
-.one-size {
+.navbar-toggler {
     border: none;
-    opacity: 0;
 }
 
-.size-item a {
-    text-decoration: none;
-    color: black;
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
-.size-item:hover {
-    background-color: rgb(127, 212, 0);
-    transition: 0.2s;
+.home-container {
+    margin-top: 2rem;
 }
 
 .btn-primary {
-    background-color: black;
+    background-color: #8CC084;
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: rgb(127, 212, 0);
+    background-color: #C1D7AE;
 }
 
-@media screen and (max-width: 700px) {
-    .nav-container a {
-        font-size: 1.5rem;
-    }
+.hero-left {
+    margin-top: 16rem;
 }
 
-@media screen and (max-width: 500px) {
-    .nav-container a {
-        font-size: 1rem;
-    }
+.hero-right {
+    margin-top: 8rem;
+}
+
+.hero-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.food-container {
+    margin-top: 5rem;
+}
+
+.card {
+    height: 300px;
 }

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Mynerve&family=Oswald:wght@200;400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 body {
@@ -38,4 +41,11 @@ body {
 .main-header {
     font-size: 4em;
     color: black;
+}
+
+.nav-link,
+.dropdown-item {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 200;
 }

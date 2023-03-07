@@ -1,76 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Mynerve&family=Oswald:wght@200;400;700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
     box-sizing: border-box;
-    -ms-overflow-style: none;
 }
 
 .top-element {
-    background-color: black;
-    height: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-
+    background-color: black;
+    height: 3em;
 }
 
-.nav-container {
-    background-color: #C1D7AE;
-    padding: 10px;
+.top-element h5 {
+    font-size: 0.8em;
+    color: white;
 }
 
-.nav-container a {
+.top-element p {
+    font-size: 0.5em;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    font-size: 4em;
     color: black;
-}
-
-.nav-link:hover {
-    color: #968E85;
-}
-
-.navbar-brand {
-    background-color: #8CC084;
-    padding-inline: 1rem;
-    border-radius: 10px;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.home-container {
-    margin-top: 2rem;
-}
-
-.btn-primary {
-    background-color: #8CC084;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #C1D7AE;
-}
-
-.hero-left {
-    margin-top: 16rem;
-}
-
-.hero-right {
-    margin-top: 8rem;
-}
-
-.hero-image {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.food-container {
-    margin-top: 5rem;
-}
-
-.card {
-    height: 300px;
 }

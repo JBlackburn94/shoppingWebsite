@@ -49,3 +49,12 @@ body {
     font-size: 1.2em;
     font-weight: 200;
 }
+
+.carousel .carousel-item {
+    height: 700px;
+  }
+  
+  .carousel-item img {
+    margin:0 auto;
+    max-width: 100%;
+  }

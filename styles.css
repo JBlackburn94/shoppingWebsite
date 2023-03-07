@@ -51,10 +51,16 @@ body {
 }
 
 .carousel .carousel-item {
-    height: 700px;
+    max-height: 700px;
   }
   
   .carousel-item img {
     margin:0 auto;
     max-width: 100%;
+  }
+
+  @media screen and (max-width: 400px) {
+    .carousel .carousel-item {
+        max-height: 200px;
+      }
   }
